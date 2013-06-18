@@ -8,37 +8,7 @@
     <link rel="stylesheet" type="text/css" href="specificStyles.css">
     <meta name="description" content="Basalt is a simple, flexible, rock-solid HTML and CSS starter theme. It works in all the major browsers, on all screen resolutions, and can gracefully handle any HTML that gets dumped into it.">
 
-
-<script>
-
-var colorsOn = 0;
-var c1 = "#aaf0c3";
-var c2 = "#f99fc5";
-var c3 = "#e6e9b3";
-var c4 = "#d5bfe9";
-var c5 = "#f0c3aa";
-
-function toggleColors() {
-
-    if (colorsOn === 0) {
-        document.getElementById("header").style.backgroundColor = c1;
-        document.getElementById("container").style.backgroundColor = c2;
-        document.getElementById("main").style.backgroundColor = c3;
-        document.getElementById("sidebar").style.backgroundColor = c4;
-        document.getElementById("footer").style.backgroundColor = c5;
-        colorsOn = 1;
-    }
-    else {
-        document.getElementById("header").style.backgroundColor = "#fff";
-        document.getElementById("container").style.backgroundColor = "#fff";
-        document.getElementById("main").style.backgroundColor = "#fff";
-        document.getElementById("sidebar").style.backgroundColor = "#fff";
-        document.getElementById("footer").style.backgroundColor = "#fff";
-        colorsOn = 0;
-    }
-}
-
-</script>
+    <script type="text/javascript" src="foofurpleToggleColors.js"></script>
 
 </head>
 
@@ -53,10 +23,7 @@ function toggleColors() {
 <div id="main">
 <div id="mainInner">
 
-<br>
-    <button onclick="toggleColors()">Toggle colours</button>
-<br>
-<br>
+    <p><button onclick="toggleColors()">Toggle colours</button></p>
 
     <h2>Here's a post box type thing:</h2>
 
@@ -76,7 +43,7 @@ function toggleColors() {
     <div class='streamItem'>       
         <div class="feed_icon">
             <a href='http://identi.ca/creativecommons'>               
-                <img src='/home/katie/prog/aFun/cc_icon.png' alt='creativecommons timeline' />    
+                <img src='cc_icon.png' alt='creative commons timeline' />    
             </a>
         </div> <!--.feed_icon-->
         <div class='item_main'>
@@ -95,7 +62,7 @@ function toggleColors() {
     <div class='streamItem'>       
         <div class="feed_icon">
             <a href='http://www.reddit.com/r/technology/'>               
-                <img src='/home/katie/prog/aFun/reddit_technology_icon.png' alt='Technology' />
+                <img src='reddit_technology_icon.png' alt='Technology' />
             </a>
         </div> <!--.feed_icon-->
         <div class='item_main'>
