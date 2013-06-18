@@ -1,0 +1,1 @@
+Basalt is a simple, flexible, rock-solid HTML and CSS starter theme. It works in all the major browsers, on all screen resolutions, and can gracefully handle any valid HTML that gets dumped into it. http://foofurple.com/basalt/
