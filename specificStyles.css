@@ -1,0 +1,82 @@
+
+#postbox {
+    background-color: #f3f3ec;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+#postbox textarea {
+    width: 100%;
+    min-height: 120px;
+    background-color: #fff;
+    border: 2px solid #cdc4a9;
+}
+#postbox button {
+    float: right;
+}
+#postbox h2 {
+    padding-top: 2px;
+    font-size: 1.2em;
+}
+
+/* Main display of stream / feed items */
+
+.streamItem {
+    border-top: 2px solid #f3f3ec;
+    border-bottom: 40px solid #f3f3ec;
+    line-height: 1.4em;
+    width: 100%;
+    clear: both;
+}
+div.feed_icon {
+    width: 80px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+div.default_icon {
+    padding: 3px;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    border-top: none;
+    border-radius: 3px;
+}
+div.default_icon a {
+    font-size: 0.8em;
+}
+div.item_main {
+    min-height: 90px;
+    margin-left: 100px;
+}
+div.item_main img {
+    max-width: 500px;
+    height: auto;
+}
+div.item_meta {
+    font-size: 0.8em;
+}
+div.item_meta a {
+    font-size: 1.4em;
+}
+div.enclosures {
+    font-size: 0.8em;
+}
+div.read_more {
+    padding-top: 20px;
+    font-size: 0.8em;
+    text-align: right;
+}
+div.list_item {
+    font-size: 0.8em;
+}
+div.list_item img {
+    width: 40px;
+    height: 40px;
+}
+div.feed_icon img {
+    max-width: 80px;
+    height: auto;
+    border-top: none;
+    border-radius: 3px;
+}

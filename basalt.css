@@ -1,0 +1,119 @@
+/* GET RID OF DEFAULT STYLES ADDED BY THE BROWSER */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* GENERAL TYPOGRAPHY */
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #222;
+}
+h1,h2,h3,h4,h5,h6 { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+h1 {
+    font-size: 1.8em;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+h2,h3,h4,h5,h6 {
+    font-size: 1.2em;
+    padding-top: 18px;
+    padding-bottom: 8px;
+}
+p {
+    padding: 10px 0px;
+    line-height: 1.4em;
+}
+li {
+    padding: 5px 0px;
+    line-height: 1.4em;
+    margin-left: 30px;
+}
+a {
+    color: #1900b2;
+    text-decoration: none;
+    font-weight: regular;
+}
+a:hover {
+    color: #006abc;
+}
+a.current {
+    color: #6c6552;
+    cursor: text;
+}
+blockquote {
+    padding: 10px 50px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #aaa;
+}
+input, textarea, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 2px 5px;
+    border: 2px solid #888;
+    border-radius: 3px;
+}
+button {
+    background-color: #f7f5dd;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fff;
+}
+
+/* BOXES / page layout */
+
+html {
+    width: 100%;
+}
+#container {
+    width: 700px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+/* Every child of the container has a max-width equal to the 
+    width of its parent container.  */
+
+#container * {
+    max-width: 100%;
+    height: auto;
+}
+#header {
+    min-height: 60px;
+    padding: 10px;
+}
+#main {
+    width: 520px;
+    max-width: 100%;
+    float: right;
+}
+#mainInner {
+    padding: 0px 10px;
+}
+#sidebar {
+    min-width: 90px;
+    max-width: 150px;
+    float: left;
+}
+#sidebarInner {
+    padding: 0px 10px;
+}
+#footer {
+    clear: both;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align:center;
+}
+
